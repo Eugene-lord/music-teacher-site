@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Преподаватель музыки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+        <p>Я – преподаватель музыки, и помогу вам раскрыть ваш талант.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>Обо мне</h2>
+        <p>Привет! Меня зовут [Твоё Имя]. Я профессиональный преподаватель музыки с многолетним опытом. 
+           Обучаю игре на фортепиано, гитаре, вокалу и музыкальной теории.</p>
+    </section>
+
+    <section id="services">
+        <h2>Услуги</h2>
+        <ul>
+            <li>Индивидуальные уроки игры на фортепиано</li>
+            <li>Обучение вокалу и правильному дыханию</li>
+            <li>Музыкальная теория – нотная грамота, сольфеджио</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Свяжитесь со мной</h2>
+        <form id="contact-form">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Ваш Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Преподаватель музыки. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
